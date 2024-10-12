@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+nav{
+    border-bottom: 2px solid rgb(83, 79, 75);
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+a{
+    padding: 8px 30px;
+    margin: 12px;
+    border: 2px solid #212121;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+.canvas {
+    text-align: center;
+}
+h1{
+    padding: 6vh;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin: 30px;
+}
+span {
+    display: block;
+    
+}
+.button{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    border: 2px solid black; 
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#grey{
+    background-color: grey;
+}
+#orange{
+    background-color: orange;
+}
+#aquamarine{
+    background-color: aquamarine;
+}
+#lightgreen{
+    background-color: lightgreen ;
+}
